@@ -1,0 +1,30 @@
+<!-- made by github.com/damiansarnecki -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <title>ChatRoulette</title>
+</head>
+<body>
+    <header>
+        <h1><b>CHAT</b>ROULETTE</h1>
+        <p id="userCount"></p>
+    </header>
+    <main id="messages">
+
+    </main>
+    <div id="bottom">
+        <div id="find">
+            <p id="findText">Find</p>
+            <p id="findDots"><span></span><span></span><span></span></p>
+        </div>
+        <textarea id="text" placeholder="Enter text here..."></textarea>
+        <div id="send">Send</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
